@@ -1,0 +1,120 @@
+/* set space mono as default */
+* {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #00001e;
+	color: rgb(255, 238, 223);
+    text-align: center;
+    
+}
+
+
+/* apply everything to mid. */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+/* center title */
+h1 {
+    font-size: 30px;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+}
+
+underti {
+    font-size: 25px;
+}
+
+/* under center title */
+h2 {
+    color: black;
+    font-size: 15px;
+}
+
+/* project elem */
+h3 {
+    color: black;
+    font-size: 20px;
+}
+
+/* notes if needed */
+h4 {
+    color: black;
+    font-size: 12px;
+}
+
+/* extras */
+h5 {
+    font-size: 12px;
+}
+/* contact info attr */
+h6 {
+    font-size: 15px;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+
+}
+
+/*  Final extra (bloat yeah but i don't care anymore)  */
+h7 {
+    color: black;
+    font-size: 20px;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00001e;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:rgb(255, 238, 223);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #fdf9f3;
+  }
+  
+  .active {
+    background-color:black;
+  }
+
+
+  div{
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: black;
+    text-transform: none;
+    margin: 0 20px;
+    opacity: 0.0;
+    animation: fadeIn forwards 6s;
+    -webkit-animation: fadeIn forwards 6s;
+    }
+    
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @keyframes hue {
+        from {
+          -webkit-filter: hue-rotate(0deg);
+        }
+        to {
+          -webkit-filter: hue-rotate(-360deg);
+        }
+      }
