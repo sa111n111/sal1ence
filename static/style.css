@@ -1,12 +1,11 @@
 /* set space mono as default */
 * {
     font-family: 'IBM Plex Mono', monospace;
-    background-color: #00001e;
-	color: rgb(255, 238, 223);
+    background-color: #000000;
+	  color: rgb(255, 238, 223);
     text-align: center;
     
 }
-
 
 /* apply everything to mid. */
 .center {
@@ -49,13 +48,9 @@ h5 {
 }
 /* contact info attr */
 h6 {
+    font-style: italic;
     font-size: 15px;
-	color: #f35626;
-	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
-
+	  color: gray;
 }
 
 /*  Final extra (bloat yeah but i don't care anymore)  */
@@ -69,9 +64,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #00001e;
+    background-color: black;
   }
-  
+
   li {
     float: left;
   }
@@ -85,7 +80,7 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #fdf9f3;
+    background-color: rgb(53, 53, 53);
   }
   
   .active {
@@ -117,4 +112,5 @@ ul {
         to {
           -webkit-filter: hue-rotate(-360deg);
         }
-      }
+}
+      
