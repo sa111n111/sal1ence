@@ -1,117 +1,17 @@
 /* set space mono as default */
 * {
-    font-family: 'IBM Plex Mono', monospace;
-    background-color: #000000;
-	  color: rgb(255, 238, 223);
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(127, 120, 146);
+	  color: rgb(200, 200, 255);
     text-align: center;
-    
 }
 
-/* apply everything to mid. */
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
-}
-
-/* center title */
 h1 {
-    font-size: 30px;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  color: rgb(215, 215, 221);
+  text-align: center;
 }
 
-underti {
-    font-size: 25px;
-}
-
-/* under center title */
 h2 {
-    color: black;
-    font-size: 15px;
+  color: bisque;
+  font-size: 20px;
 }
-
-/* project elem */
-h3 {
-    color: black;
-    font-size: 20px;
-}
-
-/* notes if needed */
-h4 {
-    color: black;
-    font-size: 12px;
-}
-
-/* extras */
-h5 {
-    font-size: 12px;
-}
-
-
-h6 {
-    font-size: 20px;
-	  color: white;
-}
-
-
-
-/*  Final extra (bloat yeah but i don't care anymore)  */
-h7 {
-    color: black; 
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-  }
-
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color:rgb(255, 238, 223);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(53, 53, 53);
-  }
-  
-  .active {
-    background-color:black;
-  }
-
-
-  div{
-    display: inline-block;
-    font-family: 'Montserrat';
-    font-size: 20px;
-    color: black;
-    text-transform: none;
-    margin: 0 20px;
-    opacity: 0.0;
-    animation: fadeIn forwards 6s;
-    -webkit-animation: fadeIn forwards 6s;
-    }
-    
-    @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-    }
-
-    @keyframes hue {
-        from {
-          -webkit-filter: hue-rotate(0deg);
-        }
-        to {
-          -webkit-filter: hue-rotate(-360deg);
-        }
-}
-      
